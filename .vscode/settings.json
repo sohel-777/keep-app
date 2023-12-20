@@ -1,0 +1,10 @@
+{
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact",
+        "html": "html",
+        "css": "css"
+    },
+    "emmet.showSuggestionsAsSnippets": true,
+    "emmet.useInlineCompletions": true,
+    "emmet.triggerExpansionOnTab": true
+}

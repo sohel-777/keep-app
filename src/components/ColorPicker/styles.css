@@ -1,0 +1,26 @@
+.color-picker {
+  position: absolute;
+  z-index: 2;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+  overflow: hidden;
+  user-select: none;
+}
+
+.chrome-picker {
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  width: 200px !important;
+}
+
+/* Media query for screens less than 600px */
+@media (max-width: 600px) {
+  .color-picker-icon {
+    padding: 1px !important;
+  }
+  .chrome-picker {
+    height: 220px !important;
+    width: 150px !important;
+  }
+}

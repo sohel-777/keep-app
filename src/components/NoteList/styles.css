@@ -1,0 +1,33 @@
+.note-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.note-container.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 20px;
+}
+.searchViewContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 17px;
+}
+.search-bar {
+  width: 50%;
+  outline: none;
+}
+
+.viewIcon {
+  font-size: 30px;
+}
+
+/* Media query for screens less than 600px */
+@media (max-width: 600px) {
+  .note-container.grid {
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    grid-gap: 5px;
+  }
+}
